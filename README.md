@@ -1,1 +1,0 @@
-# SecNewsFeedReader-Drupal
