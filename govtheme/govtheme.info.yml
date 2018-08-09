@@ -1,0 +1,16 @@
+name: govtheme
+description: "Government Theme"
+type: theme
+core: 8.x
+
+regions:  
+  header: header
+  leftbar: leftbar
+  content: content  
+  footer: footer
+  feedback: feedback
+  
+
+libraries:
+  - govtheme/global-styling
+  
