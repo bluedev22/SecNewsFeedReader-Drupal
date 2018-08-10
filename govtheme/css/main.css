@@ -2254,3 +2254,22 @@ h5.twitterUserName a{
 	height: 52px;
 	width: 53px;
 }
+
+#leftbar {
+	margin-top: 140px; 
+	margin-bottom: 40px;
+}
+
+#content {
+	margin-top: 140px; 
+	margin-bottom: 20px;
+}
+
+#feedback {
+	margin-top:20px;
+	margin-bottom: 30px;
+}
+
+#footer {
+	margin-top: 50px;
+}
