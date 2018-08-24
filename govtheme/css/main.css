@@ -2264,12 +2264,8 @@ h5.twitterUserName a{
 	margin-top: 140px; 
 	margin-bottom: 20px;
 }
-
-#feedback {
-	margin-top:20px;
-	margin-bottom: 30px;
-}
-
-#footer {
-	margin-top: 50px;
+#footer {	
+	margin-top: 10%;
+	position: relative;
+	width:100%;			
 }
