@@ -8,9 +8,10 @@ regions:
   leftbar: leftbar
   content: content  
   footer: footer
-  feedback: feedback
+  rightbar: rightbar 
   
 
 libraries:
   - govtheme/global-styling
   
+version: '0.0.1'
