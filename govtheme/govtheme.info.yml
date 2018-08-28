@@ -7,11 +7,10 @@ regions:
   header: header
   leftbar: leftbar
   content: content  
-  footer: footer
-  rightbar: rightbar 
+  footer: footer  
   
 
 libraries:
   - govtheme/global-styling
   
-version: '0.0.1'
+version: '0.0.2'
