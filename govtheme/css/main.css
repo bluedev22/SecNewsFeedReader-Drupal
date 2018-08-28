@@ -2256,16 +2256,21 @@ h5.twitterUserName a{
 }
 
 #leftbar {
-	margin-top: 140px; 
-	margin-bottom: 40px;
+	margin-top: 40px; 
+	margin-bottom: 20px;
 }
 
 #content {
-	margin-top: 140px; 
+	margin-top: 40px; 
 	margin-bottom: 20px;
 }
 #footer {	
-	margin-top: 10%;
+	margin-top: 5px;
 	position: relative;
 	width:100%;			
+}
+
+.wrapper {
+	background-color:#fff;
+	margin-top:40px;
 }
