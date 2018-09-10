@@ -28,8 +28,12 @@ display:
         type: none
         options: {  }
       cache:
-        type: tag
-        options: {  }
+        type: time
+        options:
+          results_lifespan: 3600
+          results_lifespan_custom: 0
+          output_lifespan: 3600
+          output_lifespan_custom: 0
       query:
         type: views_query
         options:
@@ -499,7 +503,7 @@ display:
             alter_text: true
             text: '{{ title }}'
             make_link: true
-            path: 'rss-results/{{ tid }}/{{ fid }}'
+            path: 'feed-results/{{ tid }}/{{ fid }}'
             absolute: false
             external: false
             replace_spaces: false
@@ -554,7 +558,7 @@ display:
           plugin_id: field
       filters: {  }
       sorts: {  }
-      title: Filters
+      title: ''
       header:
         area:
           id: area
@@ -566,7 +570,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: '<h3 class="ui-state-default ui-accordion-header"><a href=/rss-results>All</a></h3>'
+            value: "<h2 class=\"blue-heading-bar\">Categories</h2>\n<h3 class=\"ui-state-default ui-accordion-header\"><a href=/feed-results>All Categories</a></h3>\n<h3 class=\"ui-state-default ui-accordion-header\"><a href=/feed-uncategorized>Uncategorized</a></h3>\n"
             format: full_html
           plugin_id: text
       footer: {  }
