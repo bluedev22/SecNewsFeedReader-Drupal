@@ -1,9 +1,7 @@
 # SecNewsFeedReader-Drupal
-Install Drupal 8.60 & your preferred Apache setup ( wamp/mamp/lamp)
-Install and setup your site.
-
-Install following modules:Automated Logout 8.x-1.0, Token 8.x-1.4, Views Accordion 8.x-1.1, 
-Enable modules: Aggregator, Views, Views UI, Taxonomy
-Import OPML (/admin/config/services/aggregator)
+1.)Install most recent version of Drupal 8 ( https://www.drupal.org/project/drupal/releases) 
+2.)  Install following modules:Automated Logout,token, Views Accordion, webform, views_bulk_operations, views_accordion, Taxonomy Menu
+3.) Enable modules: Aggregator, Views, Views UI, Taxonomy, Taxonomy Menu
+4.) Import OPML (/admin/config/services/aggregator)
 Import views from github
 Tag opml
